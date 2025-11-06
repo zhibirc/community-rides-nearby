@@ -2,10 +2,10 @@
 Community Rides — Telegram Bot (boilerplate).
 
 This file is intentionally abstract. It defines:
-  • environment/config loading
-  • conversation state constants
-  • handler function signatures with docstrings
-  • application bootstrap shape
+    - environment/config loading
+    - conversation state constants
+    - handler function signatures with docstrings
+    - application bootstrap shape
 
 All business logic (storage, validation, formatting, posting to channel)
 must be implemented by contributors inside the handlers.

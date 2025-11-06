@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  db:
+    image: mongo:7
+    container_name: community-rides-db
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  app:
+    build: .
+    container_name: community-rides-app
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_started
+    env_file:
+      - community-rides-bot/.env
+    # ports:
+    #   - "8080:8080"
+
+volumes:
+  mongo-data:

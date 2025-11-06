@@ -1,14 +1,14 @@
 > [!WARNING]  
-> Boilerplate Project
+> Boilerplate Project.
 > This repository is a starter template, not a fully functional application.
 > It provides structure, interfaces, and example handlers, but key logic and storage implementation are intentionally incomplete.
 > You need to fork/clone and implement unfinished parts before deployment.
 
 # Community Rides Nearby
 
-<center>
+<p align="center">
 Enable local community members to share their spare car seats with neighbors. We aim to reduce empty trips, strengthen mutual support, and promote a more eco-friendly lifestyle.
-</center>
+</p>
 
 ---
 
@@ -58,7 +58,7 @@ No registrations, no separate apps, no personal data harvesting — just a light
 | /delete   | Remove/cancel a previously created ride |
 | /cancel   | Cancel current wizard                   |
 
-## Security
+## 🛡️ Security
 
 - Only Telegram `user_id` is stored, no sensitive data.
 - No authentication required beyond Telegram.
@@ -76,4 +76,4 @@ MIT
 
 ---
 
-<center>Made with ❤️ in Romania.</center>
+<p align="center">Made with ❤️ in Romania.</p>

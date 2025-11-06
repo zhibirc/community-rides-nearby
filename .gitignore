@@ -1,0 +1,25 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.history/
+*.vsix
+
+# logs
+logs
+*.log
+
+# dotenv environment variable files
+.env
+.env.*
+.env-*
+
+# Python stuff
+.venv/
+__pycache__/
+
+# Database stuff, e.g. SQLite files
+*.db

@@ -6,9 +6,7 @@
 
 # Community Rides Nearby
 
-<p align="center">
 Enable local community members to share their spare car seats with neighbors. We aim to reduce empty trips, strengthen mutual support, and promote a more eco-friendly lifestyle.
-</p>
 
 ---
 
@@ -18,6 +16,10 @@ Enable local community members to share their spare car seats with neighbors. We
 Drivers can publish available rides through a Telegram bot, and all rides are automatically posted to a public Telegram channel where passengers can respond.
 
 No registrations, no separate apps, no personal data harvesting — just a lightweight tool to connect people going in the same direction.
+
+<p align="center">
+    <img src="./docs/diagrams/overview.png" />
+</p>
 
 ---
 
